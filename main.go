@@ -15,6 +15,6 @@ http.HandleFunc("/", index)
 // index response and HTTP header and body creation for assigned formatting
 
 func index(writer http.ResponseWriter, request *http.Request) {
-	fmt.Fprintf(writer, "whatever")
+	fmt.Fprintf(writer, "MY THING IS WORKING")
 	return
 }
