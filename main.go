@@ -1,14 +1,14 @@
 package main
 
 import (
-	"net/http"
 	"fmt"
+	"net/http"
 )
 
 // opening Listen and serve on port 8080 for index function
 
 func main() {
-http.HandleFunc("/", index)
+	http.HandleFunc("/", index)
 	http.ListenAndServe(":8080", nil)
 }
 
