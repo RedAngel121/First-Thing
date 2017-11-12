@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-// Function initialization, port 8080 listen and serve for index
+// opening Listen and serve on port 8080 for index function
 
 func main() {
 http.HandleFunc("/", index)
